@@ -1,0 +1,44 @@
+html,body{
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.page{
+    height: 100%;
+    width: 100%;
+}
+.background{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-image: url(/scr/image/page-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.left_bar{
+    height: calc(100% - 20px);
+    width: 15%;
+    margin: 10px 20px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+}
+.left_bar p{
+    padding-top: 10px;
+}
+.link:hover{
+    border-right: red 50px solid;
+    margin-left: 50px;
+    transition: all .3s ease;
+}
