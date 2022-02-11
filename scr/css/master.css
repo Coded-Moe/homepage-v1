@@ -10,7 +10,7 @@ a{
     height: 100%;
     width: 100%;
 }
-.background{
+.page-background{
     height: 100%;
     width: 100%;
     position: absolute;
@@ -19,26 +19,25 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.content{
+.page-content{
     height: 100%;
     width: 100%;
     position: absolute;
 }
-.left_bar{
-    height: calc(100% - 20px);
-    width: 15%;
-    margin: 10px 20px;
-    position: absolute;
+.page-content-top-nav{
+    height: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border-radius: 15px;
-    text-align: center;
 }
-.left_bar p{
-    padding-top: 10px;
+.page-content-top-nav p{
+    margin-right: 60px;
 }
-.link:hover{
-    border-right: red 50px solid;
-    margin-left: 50px;
-    transition: all .3s ease;
+.page-content-top-nav p:last-child{
+    margin-right: 0px;
+}
+.page-content-top-nav p a:hover{
+    text-decoration: underline;
 }
